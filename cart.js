@@ -120,7 +120,7 @@ console.log(indexInCartObject);
   // Rerender cart on screen
   
   toggleButton.style.display = "block";
-  title
+ 
   console.log(cart.items);
     // use a function from utilities object to update our cart number on each click
   
