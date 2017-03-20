@@ -477,7 +477,7 @@ i.fa.fa-github{
   background-color:#E6E6DC;#fcfcfc;
   border-radius:3px;
   border:1px solid e6cccc;#d9d9d9;
-  height:360px;
+  height:400px;
   /*height:400px;*/
   position:absolute;
   right:7%;
@@ -540,7 +540,7 @@ i.fa.fa-github{
   }
 }
 .carousel__container-caption{
-  bottom:2%;
+  bottom:0.5%;
   left:27%;
   position:absolute;
   transform:translateX(-50%);
@@ -560,12 +560,10 @@ i.fa.fa-github{
 .carousel__caption-heading{
   color:#f19f4d;
 }
-.carousel__github-source{
-  /*opacity:.2;*/
-}
+
 .carousel__bullet-container{
   -webkit-transform:translateX(-50%);
-  bottom:20%;
+  bottom:17%;
    /*bottom:18%;*/
   display:inline-block;
   font-size:15px;
