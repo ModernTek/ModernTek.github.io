@@ -385,10 +385,10 @@ i.fa.fa-github{
   padding:5px;
   position:absolute;
   visibility:hidden;
-  top:-65px;
+  top:-55px;
   left:-100%;
   text-align:center;
-  line-height:2.8em;
+  /*line-height:2.8em;*/
   background-color:#2f4f4f;
   color:white;
 }
