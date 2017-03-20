@@ -1,3 +1,3 @@
-# Shopping-Cart
+# Portfolio
 
-This is shopping cart implementation for Project Assignment 5, chapter "Introduction to DOM".
+This is portfolio Assignment 3, chapter "Responsive design".
