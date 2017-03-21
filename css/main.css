@@ -1,13 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,300);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,300);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
-
 
 *{
   box-sizing:border-box}
@@ -846,31 +841,6 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   background-color:#efe210; 
 }
 
-/*.tooltip{
-  border:1px solid;
-  height:50px;
-  padding:5px;
-  position:absolute;
-  visibility:hidden;
-  top:-65px;
-  left:-100%;
-  text-align:center;
-  line-height:2.8em;
-  background-color:#2f4f4f;
-  color:white;
-}
-.tooltip::after{
-  position:absolute;
-  top:62%;
-  left:40%;
-  content:"\f0d7";
-  font-family:FontAwesome;
-  white-space:pre;
-  color:#2f4f4f;
-  font-size:2em;
-}*/
-
-
 .tooltip {
   font-weight: 300;
   position: absolute;
@@ -1007,6 +977,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   height: 400px;
   margin-top: 70px; 
   font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Roboto Slab';
   color: #fff;
   margin: 30px auto;
    
@@ -1192,7 +1163,7 @@ fa{
   bottom: 0;
   height: 30px;
   margin-top: 150px;
-  padding-top: 13px;
+  padding-top: 5px;
   text-align: center;
   color: #fff;
   background-color: #00628B; }
