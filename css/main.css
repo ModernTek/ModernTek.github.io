@@ -822,7 +822,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
 }
 
 .pink {
-  background-color:#e40a51;#f7437e; #fa8cb0; 
+  background-color:#e40a51; 
 }
 
 .orange {
@@ -830,11 +830,11 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
 }
 
 .blue {
-  background-color:#0a51e4; #38baf0; 
+  background-color:#0a51e4; 
 }
 
 .green {
-  background-color: #51e40a;#0ae49d;#69d12b; 
+  background-color: #51e40a; 
 }
 
 .yellow {
@@ -896,7 +896,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
 
 .meter__fe {
   float: left;
-  width: 47.5%;
+  width: 50%;
   padding: 5px 5px 5px 15px;
   text-align: left;
   color: #fff;
@@ -905,7 +905,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
 
 .meter__be {
   float: right;
-  width: 47.5%;
+  width: 50%;
   margin-left: -10px;
   padding: 5px 15px 5px 5px;
   text-align: right;
