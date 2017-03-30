@@ -1,3 +1,2 @@
-# Portfolio
-
-This is portfolio Assignment 3, chapter "Responsive design".
+# moderntek.gitb.io-portfolio
+My portfolio
