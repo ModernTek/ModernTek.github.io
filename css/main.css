@@ -1,13 +1,4 @@
-/*@import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,300);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,300);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
-*/
+
 
 *{
   box-sizing:border-box}
@@ -1249,16 +1240,11 @@ fa{
   bottom: 0;
   height: 30px;
   margin-top: 150px;
-  padding-top: 13px;
+  padding-top: 7px;
   text-align: center;
   color: #fff;
   background-color: #00628B; }
 
-/*.project__links{ 
-  font-size: 13px;
-  font-weight: 400;
-  margin-top: 40px; 
-}*/
 .project__demo {
   text-decoration: none;
   color: #8197e2; }
