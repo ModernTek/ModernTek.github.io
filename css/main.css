@@ -532,7 +532,7 @@ i.fa.fa-github{
 .carousel__bullet-container{
   -webkit-transform:translateX(-50%);
    bottom:18%;
-   bottom:-5%;
+   bottom:0%;
   display:inline-block;
   font-size:15px;
   left:50%;
