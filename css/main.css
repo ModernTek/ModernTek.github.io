@@ -10,7 +10,8 @@ body{
   padding:0;
   margin:0;
   background:#E6E6DC;
-  font-family:'Oswald', sans-serif;
+  /*font-family:'Oswald', sans-serif;*/
+  font-family:'Roboto', sans-serif;
 }
 p{
   line-height:2em;
@@ -190,7 +191,7 @@ i.fa.fa-github{
     z-index:100;
   }
   .menu__hamburger-control:checked ~    .menu__mask{
-  bottom:0;
+    bottom:0;
     position:fixed;
     right:0;
     top:0;
@@ -297,7 +298,7 @@ i.fa.fa-github{
   width:100%;
 }
 .modal-search__display{
-  background-color:#00628B;#4484ce;
+  background-color:#00628B;
   border:1px solid;
   margin:0 auto;
   position:relative;
@@ -531,8 +532,7 @@ i.fa.fa-github{
 
 .carousel__bullet-container{
   -webkit-transform:translateX(-50%);
-   bottom:18%;
-   bottom:0%;
+   bottom:15%;
   display:inline-block;
   font-size:15px;
   left:50%;
@@ -645,7 +645,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   width:90%;
 }
 .projects{
-  padding-bottom: 20px; 
+  padding-bottom: 40px; 
 }
 
 .skills{
