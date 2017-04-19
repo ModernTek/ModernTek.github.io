@@ -369,31 +369,7 @@ i.fa.fa-github{
 .modal-search__close-control:checked ~ .modal-search__background{
   visibility:hidden;
 }
-.tooltip{
-  border:1px solid;
-  height:65px;
-  padding:5px;
-  position:absolute;
-  visibility:hidden;
-  /*top:-65px;*/
-  top:100px;
-  left:-100%;
-  text-align:center;
-  /*line-height:2.8em;*/
-  line-height: 1em;
-  background-color:#2f4f4f;
-  color:white;
-}
-.tooltip::after{
-  position:absolute;
-  top:62%;
-  left:40%;
-  content:"\f0d7";
-  font-family:FontAwesome;
-  white-space:pre;
-  color:#2f4f4f;
-  font-size:2em;
-}
+
 
 .tab{
   border-radius:3px;
@@ -555,8 +531,8 @@ i.fa.fa-github{
 
 .carousel__bullet-container{
   -webkit-transform:translateX(-50%);
-  /*bottom:0%;*/
    bottom:18%;
+   bottom:10%;
   display:inline-block;
   font-size:15px;
   left:50%;
@@ -847,8 +823,8 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   position: absolute;
   z-index: 100;
  /* top: -9px;*/
-  top: 29px;
- /* right: -120px;*/
+  top: 20px;
+  right: -120px;
   display: block;
   visibility: hidden;
   width: 150px;
