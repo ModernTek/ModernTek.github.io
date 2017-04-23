@@ -1022,7 +1022,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
 #card__wrapper {
     display:block;
     position: relative;
-    height: 355px;
+    height: 340px;
     font-family: 'Roboto Slab', sans-serif;
     color: #fff;
     margin: 3rem auto;
@@ -1223,12 +1223,13 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
 
 .contact__photo
 { 
-  /*height:10px;*/
   position:absolute;
   width:auto;
-  margin: 30px auto auto auto;
+  margin: 0 auto;
 }
-
+.contact__photo img{
+  height: 100%;
+}
 .contact__col2
 {
   float:left;
@@ -1332,9 +1333,10 @@ fa{
       margin-top:45px;
      }
      .contact__photo{
-      margin:0px auto auto auto;
+      margin:0px auto;
      }
      .contact__photo img{
        width:190px;
+       height:100%;
      }
   }
