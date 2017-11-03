@@ -2,7 +2,7 @@
 *{
   box-sizing:border-box}
 html{
-  overflow-y:scroll
+  overflow-y:scroll;
 }
 body{
   display:block;
@@ -10,8 +10,9 @@ body{
   padding:0;
   margin:0;
   background:#E6E6DC;
-  /*font-family:'Oswald', sans-serif;*/
   font-family:'Roboto', sans-serif;
+  overflow-x:hidden;
+}
 }
 p{
   line-height:2em;
@@ -478,6 +479,8 @@ i.fa.fa-github{
   /*top:33px;*/
   top:40px;
   width:60%;
+  /**/
+ /* padding-top: 150px;*/
 }
 @media screen and (max-width:770px){
   .carousel{
@@ -493,6 +496,7 @@ i.fa.fa-github{
   top:50%;
   top:45%;
   display:none;
+  cursor: pointer;
 }
 .carousel__previous-btn{
   left:5%;
@@ -550,7 +554,7 @@ i.fa.fa-github{
   width:50%;
 }
 .carousel__container-caption p{
-  margin:0;
+  margin:o.5em;
 }
 .carousel__container-caption a{
   color:#4484c4;
@@ -563,7 +567,7 @@ i.fa.fa-github{
 
 .carousel__bullet-container{
   -webkit-transform:translateX(-50%);
-   bottom:15%;
+  bottom:15%;
   display:inline-block;
   font-size:15px;
   left:50%;
@@ -690,50 +694,64 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   margin:20px auto 60px auto;
   width:80%;
 }
+
+.projects,
+.about,
+.contact-section,
+.skills{
+  /**/
+  padding-top: 100px;
+  margin:0 auto;
+  position:relative;
+  width:90%;
+  height:auto;
+}
+.projects{
+  padding-bottom: 40px; 
+  padding-top: 0px;
+  margin-top: 100px;
+  margin-bottom:100px;
+}
+/*.skills{
+
+  margin: 100px auto;
+  padding-top: 0px;
+  padding-bottom: 70px;
+  text-align: center;
+  
+}*/
+.projects,
+.about,
+.contact-section,
+.skills{
+/*width: 900px;*/
+width:90%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.projects{
+  padding-top: 0px;
+  margin-top: 100px;
+  margin-bottom:100px;
+}
 .about__title,
 .projects__title,
 .skills__title,
 .contact-section__title{
-  margin:50px auto 60px auto;
+  margin:0px auto 60px auto;
   text-align:center;
   text-transform:uppercase;
   font-weight:600;
   font-size:2em;
   color:#4484c4;
 }
-.about__title{
-  margin-top:150px;
-}
-.projects,
-.about,
-.contact-section,
-.skills{
-  margin:0 auto;
-  position:relative;
-  width:90%;
-}
-.projects{
-  padding-bottom: 40px; 
-}
-
-.skills{
-  height: auto;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 70px;
-  text-align: center;
-  border-bottom: 1px solid #bbb; 
-}
-.contact-section__title{
-  margin:0px auto 60px auto;
-}  
-  
+   
 .contact-section__description {
   font-weight: 300;
   color: #696565; 
-}
-.contact-section{
-  top:80px;
 }
 
 @media screen and (max-width:770px){
@@ -744,9 +762,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
     width:100%;
   }
 }
-.projects{
-  margin-bottom:100px;
-}
+
 @media screen and (max-width:770px){
   .projects{
     margin-bottom:0;
@@ -804,7 +820,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   height: 190px;
   padding-right: 285px;
   text-align: right;
-  border-bottom: 1px solid #bbb; 
+  /*border-bottom: 1px solid #bbb; */
 }
 .bar-graph__level {
   font-size: 14px;
@@ -825,6 +841,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   margin-bottom: 22px;
   border-radius: 0 3px 3px 0;
 }
+
 .bar-graph__items {
   font-size: 14px;
   position: absolute;
@@ -1009,11 +1026,11 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   .skills {
     height: 1350px; } }
 /* Contact section */
-#contact .section__intro {
+/*#contact .section__intro {
   color: #4AB29B;
   font-size: 1.7em;
   font-weight: 600;
-}
+}*/
 
 
 /**  business card **/
@@ -1025,9 +1042,10 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
     height: 340px;
     font-family: 'Roboto Slab', sans-serif;
     color: #fff;
-    margin: 3rem auto;
+    /*margin: 3rem auto;*/
+    margin: 2rem auto;
     padding: 0;
-     width:460px;
+    width:460px;
 }
 
 .card label{
@@ -1100,7 +1118,7 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   margin: auto;
   position: absolute;
   top: 0;
-  left: 5em;
+ /* left: 5em;*/
   bottom: 0;
   right: 0;
   -webkit-backface-visibility: hidden;
@@ -1154,7 +1172,6 @@ input[id*="button7"]:checked ~ .carousel__bullet-container .carousel__bullet:nth
   font-family: 'Lobster', cursive;
   font-weight:200;
 }
-
 
 .contact__contact-links {
   margin: 0;
